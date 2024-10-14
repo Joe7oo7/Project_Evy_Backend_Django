@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific files
+*.sqlite3
+db.sqlite3
+/media/
+staticfiles/
+
+# Environment variables file
+.env
+
+# Log files
+*.log
+
+# Virtual environment
+venv/
+env/
+
+# IDE and editor specific files
+.vscode/
+.idea/
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# macOS specific files
+.DS_Store
+
+# Testing and debugging
+*.coverage
+.pytest_cache/
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
