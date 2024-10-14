@@ -3,7 +3,7 @@ from huggingface_hub import InferenceClient
 import time
 from huggingface_hub.utils._errors import HfHubHTTPError
 
-client = InferenceClient("HuggingFaceH4/zephyr-7b-beta", token="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")
+client = InferenceClient("HuggingFaceH4/zephyr-7b-beta", token="YOUR HUGGINGFACE API KEY ")
 
 def respond(message, history: list[tuple[str, str]], system_message="", max_tokens=512, temperature=0.7, top_p=0.95):
     
