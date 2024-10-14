@@ -16,7 +16,7 @@ staticfiles/
 *.log
 
 # Virtual environment
-venv/
+.venv/
 env/
 
 # IDE and editor specific files
